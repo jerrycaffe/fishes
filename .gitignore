@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+#exclude backend
+backend/.env
+backend/fishes-app/node_modules/
+# dependencies
+frontend/fish-front-end/node_modules
+frontend/fish-front-end/.pnp
+frontend/fish-front-end.pnp.js
+
+# testing
+frontend/fish-front-end/coverage
+
+# production
+frontend/fish-front-end/build
+
+# misc
+frontend/fish-front-end.DS_Store
+frontend/fish-front-end.env.local
+frontend/fish-front-end.env.development.local
+frontend/fish-front-end.env.test.local
+frontend/fish-front-end.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
